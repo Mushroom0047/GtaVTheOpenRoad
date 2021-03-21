@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <title>TheOpenRoad</title>
+  </head>
+
+  <body class="bg-success">
+    <div class="container-fluid">
+      <div class="caja-blanca">
+        <div class="header">
+          <div class="row">
+            <div class="col-2">
+              <img class="logo" src="media/logo.png" alt="" />
+            </div>
+            <div class="col-10">
+              <h1 class="text-center text-success">The Open Road</h1>
+              <p class="text-end me-5">Herramientas administrativas</p>
+            </div>
+          </div>
+        </div>
+        <div class="caja-verde text-center">
+          <h5 class="text-success">¡Bienvenido de nuevo!</h5>
+          <p class="p-2">
+            Introduce tu contraseña y haz clic en "Iniciar sesión" para
+            continuar.
+          </p>
+          <div class="row" id="finalForm">
+            <div class="col-12">
+              <label class="fw-bold text-success" for="usuario"
+                >Usuario: <input class="tf tfName" type="text" id="usuario"
+              /></label>
+            </div>
+            <div class="col-12">
+              <label class="fw-bold text-success" for="password"
+                >Contraseña:
+                <input
+                  class="tf tfPass me-4"
+                  type="password"
+                  name="password"
+                  id="password"
+              /></label>
+            </div>
+            <div class="col-12">
+              <button
+                class="btnInicio text-light bg-success mb-4 ms-5" id="btn">
+                Iniciar sesión
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Boostraps script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
